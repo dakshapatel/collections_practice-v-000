@@ -32,4 +32,8 @@ def find_a(array)
   array.find_all do |word|
     word[0] == "a"
   end
-end 
+end
+
+def sum_array(array)
+  array.inject(0) {|sum, i| sum + i}
+end

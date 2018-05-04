@@ -25,6 +25,11 @@ def kesha_maker(array)
 
   array.each do |dollar_sign|
     dollar_sign[2] = "$"
+  end
 end
 
-end
+def find_a(array)
+  array.find_all do |word|
+    word[0] == "a"
+  end
+end 

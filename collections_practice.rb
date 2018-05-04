@@ -22,10 +22,9 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  counter = 1
-  new_array= []
-  array.each do {|dollar_sign| array [2]}
-    counter += 1
+
+  array.each do |dollar_sign|
+    dollar_sign[2] = "$"
 end
-new_array
-end 
+
+end
